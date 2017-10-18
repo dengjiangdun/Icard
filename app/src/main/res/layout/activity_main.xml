@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <include layout="@layout/top_bar_layout"/>
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_marginRight="@dimen/margin_rl_layout"
+           android:layout_marginLeft="@dimen/margin_rl_layout"
+           android:layout_height="match_parent">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center|left"
+               android:textColor="@color/hint_text_color"
+               android:textSize="@dimen/hint_text_size"
+               android:layout_marginTop="@dimen/margin_top_layout"
+               android:text="@string/hint_input_id_number"/>
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_marginTop="@dimen/margin_top_hint_layout"
+               android:layout_height="@dimen/input_id_number_height"
+               android:gravity="center"
+               android:inputType="number"
+               android:id="@+id/et_id_number"
+               android:maxLength="18"
+               android:imeOptions="actionSearch"
+               android:background="@drawable/input_number_shape"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/btn_height"
+               android:orientation="horizontal"
+               android:layout_marginTop="@dimen/margin_top_hint_layout">
+               <Button
+                   android:layout_width="0dp"
+                   android:layout_marginRight="@dimen/btn_margin_middle"
+                   android:layout_weight="1"
+                   android:gravity="center"
+                   android:textStyle="bold"
+                   android:id="@+id/btn_clear_number"
+                   android:text="@string/clear_id_number"
+                   android:background="@color/main_color"
+                   android:layout_height="match_parent" />
+               <Button
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:text="@string/search_id_number"
+                   android:gravity="center"
+                   android:textStyle="bold"
+                   android:id="@+id/btn_search_number"
+                   android:background="@color/main_color"
+                   android:layout_marginLeft="@dimen/btn_margin_middle"
+                   android:layout_height="match_parent" />
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="@dimen/hint_text_size"
+               android:gravity="center|left"
+               android:text="@string/id_address"
+               android:textColor="@color/hint_text_color"
+               android:layout_marginTop="@dimen/margin_top_layout"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="@dimen/main_text_size"
+               android:textColor="@color/main_text_color"
+               android:textStyle="bold"
+               android:id="@+id/tv_id_address"
+               android:gravity="center|left"
+               android:layout_marginTop="@dimen/margin_top_hint_layout"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="@dimen/hint_text_size"
+               android:gravity="center|left"
+               android:text="@string/id_birthday"
+               android:textColor="@color/hint_text_color"
+               android:layout_marginTop="@dimen/margin_top_layout"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="@dimen/main_text_size"
+               android:textColor="@color/main_text_color"
+               android:textStyle="bold"
+               android:gravity="center|left"
+               android:id="@+id/tv_id_birthday"
+               android:layout_marginTop="@dimen/margin_top_hint_layout"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="@dimen/hint_text_size"
+               android:gravity="center|left"
+               android:text="@string/id_male"
+               android:textColor="@color/hint_text_color"
+               android:layout_marginTop="@dimen/margin_top_layout"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="@dimen/main_text_size"
+               android:textColor="@color/main_text_color"
+               android:textStyle="bold"
+               android:gravity="center|left"
+               android:id="@+id/tv_id_male"
+               android:layout_marginTop="@dimen/margin_top_hint_layout"/>
+
+
+       </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>

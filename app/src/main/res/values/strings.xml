@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">身份证通</string>
+    <string name="hint_input_id_number">请输入身份证号</string>
+    <string name="search_id_number">查询</string>
+    <string name="clear_id_number">清除</string>
+    <string name="id_address">户籍所在地</string>
+    <string name="id_male">性别</string>
+    <string name="id_birthday">生日</string>
+    <string name="please_input_id_number">请输入身份证号</string>
+</resources>
