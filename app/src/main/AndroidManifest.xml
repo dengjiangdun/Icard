@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="util.cmcc.johndon.com.icard1">
+    package="util.cmcc.johndon.com.weishenfen">
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_id_carddp"
+        android:icon="@drawable/icon_weishenfen"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ic_id_carddp"
+        android:roundIcon="@drawable/icon_weishenfen"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="util.cmcc.johndon.com.icard1.MainActivity"
+        <activity android:name="util.cmcc.johndon.com.weishenfen.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

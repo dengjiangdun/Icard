@@ -121,3 +121,18 @@
 -keep class net.tsz.afinal.*{*;}
 -keep public class * extends android.app..AppCompatActivity
 -keep public class * extends android.app.Application
+-keep class cm.pass.sdk.** {
+*;
+}
+
+-keep class cn.richinfo.framework.** {
+*;
+}
+
+-keep class mail139.umcsdk.account.** {
+*;
+}
+
+-keep class com.chinaMobile.** {
+*;
+}

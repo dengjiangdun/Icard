@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3fb570</color>
+    <!--<color name="colorPrimary">#3fb570</color>
     <color name="colorPrimaryDark">#309f71</color>
     <color name="colorAccent">#FF4081</color>
     <color name="hint_text_color">#aea9ab</color>
     <color name="main_text_color">#292929</color>
-    <color name="main_color">#3fb570</color>
+    <color name="main_color">#3fb570</color>-->
+ <!--e shenfen-->
+    <!--<color name="colorPrimary">#547fcf</color>
+    <color name="colorPrimaryDark">#3a5e99</color>
+    <color name="colorAccent">#45579c</color>
+    <color name="hint_text_color">#394363</color>
+    <color name="main_text_color">#292929</color>
+    <color name="main_color">#303135</color>-->
+    <!--Super id-->
+
+  <!--  <color name="colorPrimary">#46e27a</color>
+    <color name="colorPrimaryDark">#489c4c</color>
+    <color name="colorAccent">#447451</color>
+    <color name="hint_text_color">#5f915b</color>
+    <color name="main_text_color">#385330</color>
+    <color name="main_color">#90a763</color>-->
+    <!--身份核验-->
+    <!--<color name="colorPrimary">#457e58</color>
+    <color name="colorPrimaryDark">#2e3d2e</color>
+    <color name="colorAccent">#a3b7a9</color>
+    <color name="hint_text_color">#5f915b</color>
+    <color name="main_text_color">#191b18</color>
+    <color name="main_color">#54564f</color>-->
+
+    <!--微身份-->
+
+    <color name="colorPrimary">#8b485146</color>
+    <color name="colorPrimaryDark">#313831</color>
+    <color name="colorAccent">#a3b7a9</color>
+    <color name="hint_text_color">#242624</color>
+    <color name="main_text_color">#656863</color>
+    <color name="main_color">#54564f</color>
+
 </resources>

@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">身份证通</string>
+  <!--  <string name="app_name">身份证通</string>-->
+   <!-- <string name="app_name">e身份</string>-->
+    <string name="app_name">微身份</string>
     <string name="hint_input_id_number">请输入身份证号</string>
     <string name="search_id_number">查询</string>
     <string name="clear_id_number">清除</string>

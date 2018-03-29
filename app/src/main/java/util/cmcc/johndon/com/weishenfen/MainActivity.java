@@ -1,4 +1,4 @@
-package util.cmcc.johndon.com.icard1;
+package util.cmcc.johndon.com.weishenfen;
 
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.bright.cmcc.umclib.JumpUmcActivity;
 
 import net.tsz.afinal.FinalHttp;
 import net.tsz.afinal.http.AjaxCallBack;
@@ -30,6 +31,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView mTvMale;
     private EditText mEtIdNumber;
 
+    private static final String APP_ID = "300011857556";
+    /*shenfenheyan"300011857555";*/
+    /*Super ID  "300011857554";*/
+    /* icarde"300011857553";*/
+    /* icard"300011648391";*/
+    private static final String APP_KEY = "2A0AC39DD72F8964E12E54E5E7D734AC";
+    /*shenfenheyan"BF56EAF237E14562E365C0B79B20741B";*/
+    /*Super ID"64295780B53543265B62BFF823ED5476";*/
+    /*icarde"531826EA12DAB5DF220E87E8BE2DA4EF";*/
+    /* icard"4448DD0E7652E3132DF6011508AE5391"*/
     private static final String GET_ID_URL = "http://api.avatardata.cn/IdCard/LookUp?" +
             "key=e0146e6d4ac847e8a11063145a4ca26a&id=%s";
     private static final String ERROR_MESSAGE = "出错（错误码：%d,原因：%s）";
@@ -68,6 +79,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     return true;
                 }
                 return false;
+            }
+        });
+
+        findViewById(R.id.iv_top_bar_right_icon).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                JumpUmcActivity.StartActivity(MainActivity.this,APP_ID,APP_KEY);
             }
         });
     }

@@ -1,4 +1,4 @@
-package util.cmcc.johndon.com.icard1;
+package util.cmcc.johndon.com.weishenfen;
 
 import org.junit.Test;
 
